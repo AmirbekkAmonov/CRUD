@@ -32,8 +32,11 @@ function createTodo(todo) {
 
     li.addEventListener('click', () => {
         li.classList.toggle('show');
-        checkbox.checked = !checkbox.checked;
-        todoObj.checked = checkbox.checked;
+        if (li.classList.contains('show')) {
+            checkbox.checked = true;
+        } else {
+            checkbox.checked = false;
+        }
     });
 
     buttonEdit.addEventListener('click', (e) => {
