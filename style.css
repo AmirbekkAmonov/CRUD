@@ -11,8 +11,6 @@ body {
 }
 
 h1 {
-  
-
     margin:20px auto ;
     text-align: center;
     font-size: 34px;
@@ -98,8 +96,9 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-transform: capitalize;
     padding: 10px;
-    background-color: #e4e4e6;
+    background-color: #e3e3e3;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
